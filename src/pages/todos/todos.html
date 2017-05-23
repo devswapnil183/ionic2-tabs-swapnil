@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Todos</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+		<ion-card no-lines *ngFor="let todo of todos; let i = index">
+	      <ion-card-content>
+        		{{i+1}} ) {{ todo.title }} | Completed : {{ todo.completed}}
+  			</ion-card-content>
+  		</ion-card>
+</ion-content>
