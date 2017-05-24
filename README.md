@@ -1,21 +1,17 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+This is a basic ionic2 sample app with tabs and each tab has a list fetched using http module.
 
 ## How to use this template
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/driftyco/ionic2-app-base).
-
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/driftyco/ionic2-app-base).
-
 ### With the Ionic CLI:
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
+Download this project and use below commands
+Go inside the project using cd command and then
 ```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
+$ npm install
+$ ionic serve
 ```
 
-Then, to run it, cd into `myTabs` and run:
+Then, to run it, then to add platforms, run:
 
 ```bash
 $ ionic cordova platform add ios
